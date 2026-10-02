@@ -20,13 +20,12 @@ namespace src.persistencia.Entidad
 
     public override void Atacar(Personaje objetivo)
     {
-        int daño = Ataque + 15;
+        
 
-        objetivo.Vida = objetivo.Vida - daño;
-
+       
         Console.WriteLine(
             Nombre + " ataca con su daga y hace "
             + daño + " de daño");
-    }   
+    }  
     }
 }
